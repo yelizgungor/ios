@@ -7,11 +7,28 @@
 //
 
 import UIKit
+import AVFoundation
 
 class PlaySoundViewController: UIViewController {
 
-     var recordedAudioURL : NSURL!
-   
+    
+    @IBOutlet weak var snailButton: UIButton!
+    @IBOutlet weak var chipmunkButton: UIButton!
+    @IBOutlet weak var rabbitButton: UIButton!
+    @IBOutlet weak var vaderButton: UIButton!
+    @IBOutlet weak var echoButton: UIButton!
+    @IBOutlet weak var reverbButton: UIButton!
+    @IBOutlet weak var stopButton: UIButton!
+    
+    var recordedAudioURL:NSURL!
+    var audioFile:AVAudioFile!
+    var audioEngine:AVAudioEngine!
+    var audioPlayerNode: AVAudioPlayerNode!
+    var stopTimer: Timer!
+    
+    enum ButtonType: Int {
+        case slow = 0, fast, chipmunk, vader, echo, reverb
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,8 +41,13 @@ class PlaySoundViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func stopButtonPressed(_ sender: UIButton) {
+        print("Stop Audio Button Pressed")
+    }
     
- 
+    @IBAction func playSoundForButtton(_ sender: UIButton) {
+        print("Play Sound For Button Pressed")
+    }
 
     
 
