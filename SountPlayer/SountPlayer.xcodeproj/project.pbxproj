@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C34965591DD59C28000BC07C /* PlayRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34965581DD59C28000BC07C /* PlayRecordViewController.swift */; };
+		C36BBCB71DD4399200D39F6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36BBCB51DD4399200D39F6E /* Main.storyboard */; };
+		C36BBCB91DD575D700D39F6E /* PlayRecordViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BBCB81DD575D700D39F6E /* PlayRecordViewController+Audio.swift */; };
+		C3E0ABDC1DD3D311000983AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E0ABDB1DD3D311000983AB /* AppDelegate.swift */; };
+		C3E0ABDE1DD3D311000983AB /* SoundRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E0ABDD1DD3D311000983AB /* SoundRecordViewController.swift */; };
+		C3E0ABE31DD3D311000983AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E0ABE21DD3D311000983AB /* Assets.xcassets */; };
+		C3E0ABE61DD3D311000983AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E0ABE41DD3D311000983AB /* LaunchScreen.storyboard */; };
+		C3E0ABF11DD3D311000983AB /* SountPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E0ABF01DD3D311000983AB /* SountPlayerTests.swift */; };
+		C3E0ABFC1DD3D311000983AB /* SountPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E0ABFB1DD3D311000983AB /* SountPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3E0ABED1DD3D311000983AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3E0ABD01DD3D311000983AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3E0ABD71DD3D311000983AB;
+			remoteInfo = SountPlayer;
+		};
+		C3E0ABF81DD3D311000983AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3E0ABD01DD3D311000983AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3E0ABD71DD3D311000983AB;
+			remoteInfo = SountPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C34965581DD59C28000BC07C /* PlayRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayRecordViewController.swift; sourceTree = "<group>"; };
+		C36BBCB61DD4399200D39F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C36BBCB81DD575D700D39F6E /* PlayRecordViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlayRecordViewController+Audio.swift"; sourceTree = "<group>"; };
+		C3E0ABD81DD3D311000983AB /* SountPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SountPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E0ABDB1DD3D311000983AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3E0ABDD1DD3D311000983AB /* SoundRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundRecordViewController.swift; sourceTree = "<group>"; };
+		C3E0ABE21DD3D311000983AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3E0ABE51DD3D311000983AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3E0ABE71DD3D311000983AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E0ABEC1DD3D311000983AB /* SountPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SountPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E0ABF01DD3D311000983AB /* SountPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SountPlayerTests.swift; sourceTree = "<group>"; };
+		C3E0ABF21DD3D311000983AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E0ABF71DD3D311000983AB /* SountPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SountPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E0ABFB1DD3D311000983AB /* SountPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SountPlayerUITests.swift; sourceTree = "<group>"; };
+		C3E0ABFD1DD3D311000983AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3E0ABD51DD3D311000983AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E0ABE91DD3D311000983AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E0ABF41DD3D311000983AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3E0ABCF1DD3D311000983AB = {
+			isa = PBXGroup;
+			children = (
+				C3E0ABDA1DD3D311000983AB /* SountPlayer */,
+				C3E0ABEF1DD3D311000983AB /* SountPlayerTests */,
+				C3E0ABFA1DD3D311000983AB /* SountPlayerUITests */,
+				C3E0ABD91DD3D311000983AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3E0ABD91DD3D311000983AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3E0ABD81DD3D311000983AB /* SountPlayer.app */,
+				C3E0ABEC1DD3D311000983AB /* SountPlayerTests.xctest */,
+				C3E0ABF71DD3D311000983AB /* SountPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3E0ABDA1DD3D311000983AB /* SountPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C3E0ABDB1DD3D311000983AB /* AppDelegate.swift */,
+				C3E0ABDD1DD3D311000983AB /* SoundRecordViewController.swift */,
+				C34965581DD59C28000BC07C /* PlayRecordViewController.swift */,
+				C36BBCB81DD575D700D39F6E /* PlayRecordViewController+Audio.swift */,
+				C36BBCB51DD4399200D39F6E /* Main.storyboard */,
+				C3E0ABE21DD3D311000983AB /* Assets.xcassets */,
+				C3E0ABE41DD3D311000983AB /* LaunchScreen.storyboard */,
+				C3E0ABE71DD3D311000983AB /* Info.plist */,
+			);
+			path = SountPlayer;
+			sourceTree = "<group>";
+		};
+		C3E0ABEF1DD3D311000983AB /* SountPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3E0ABF01DD3D311000983AB /* SountPlayerTests.swift */,
+				C3E0ABF21DD3D311000983AB /* Info.plist */,
+			);
+			path = SountPlayerTests;
+			sourceTree = "<group>";
+		};
+		C3E0ABFA1DD3D311000983AB /* SountPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3E0ABFB1DD3D311000983AB /* SountPlayerUITests.swift */,
+				C3E0ABFD1DD3D311000983AB /* Info.plist */,
+			);
+			path = SountPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3E0ABD71DD3D311000983AB /* SountPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E0AC001DD3D311000983AB /* Build configuration list for PBXNativeTarget "SountPlayer" */;
+			buildPhases = (
+				C3E0ABD41DD3D311000983AB /* Sources */,
+				C3E0ABD51DD3D311000983AB /* Frameworks */,
+				C3E0ABD61DD3D311000983AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SountPlayer;
+			productName = SountPlayer;
+			productReference = C3E0ABD81DD3D311000983AB /* SountPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3E0ABEB1DD3D311000983AB /* SountPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E0AC031DD3D311000983AB /* Build configuration list for PBXNativeTarget "SountPlayerTests" */;
+			buildPhases = (
+				C3E0ABE81DD3D311000983AB /* Sources */,
+				C3E0ABE91DD3D311000983AB /* Frameworks */,
+				C3E0ABEA1DD3D311000983AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3E0ABEE1DD3D311000983AB /* PBXTargetDependency */,
+			);
+			name = SountPlayerTests;
+			productName = SountPlayerTests;
+			productReference = C3E0ABEC1DD3D311000983AB /* SountPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3E0ABF61DD3D311000983AB /* SountPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3E0AC061DD3D311000983AB /* Build configuration list for PBXNativeTarget "SountPlayerUITests" */;
+			buildPhases = (
+				C3E0ABF31DD3D311000983AB /* Sources */,
+				C3E0ABF41DD3D311000983AB /* Frameworks */,
+				C3E0ABF51DD3D311000983AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3E0ABF91DD3D311000983AB /* PBXTargetDependency */,
+			);
+			name = SountPlayerUITests;
+			productName = SountPlayerUITests;
+			productReference = C3E0ABF71DD3D311000983AB /* SountPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3E0ABD01DD3D311000983AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Yeliz Güngör";
+				TargetAttributes = {
+					C3E0ABD71DD3D311000983AB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Y8N4W2BH87;
+						ProvisioningStyle = Automatic;
+					};
+					C3E0ABEB1DD3D311000983AB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Y8N4W2BH87;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3E0ABD71DD3D311000983AB;
+					};
+					C3E0ABF61DD3D311000983AB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Y8N4W2BH87;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3E0ABD71DD3D311000983AB;
+					};
+				};
+			};
+			buildConfigurationList = C3E0ABD31DD3D311000983AB /* Build configuration list for PBXProject "SountPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3E0ABCF1DD3D311000983AB;
+			productRefGroup = C3E0ABD91DD3D311000983AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3E0ABD71DD3D311000983AB /* SountPlayer */,
+				C3E0ABEB1DD3D311000983AB /* SountPlayerTests */,
+				C3E0ABF61DD3D311000983AB /* SountPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3E0ABD61DD3D311000983AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C36BBCB71DD4399200D39F6E /* Main.storyboard in Resources */,
+				C3E0ABE61DD3D311000983AB /* LaunchScreen.storyboard in Resources */,
+				C3E0ABE31DD3D311000983AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E0ABEA1DD3D311000983AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E0ABF51DD3D311000983AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3E0ABD41DD3D311000983AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E0ABDE1DD3D311000983AB /* SoundRecordViewController.swift in Sources */,
+				C34965591DD59C28000BC07C /* PlayRecordViewController.swift in Sources */,
+				C36BBCB91DD575D700D39F6E /* PlayRecordViewController+Audio.swift in Sources */,
+				C3E0ABDC1DD3D311000983AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E0ABE81DD3D311000983AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E0ABF11DD3D311000983AB /* SountPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E0ABF31DD3D311000983AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E0ABFC1DD3D311000983AB /* SountPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3E0ABEE1DD3D311000983AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3E0ABD71DD3D311000983AB /* SountPlayer */;
+			targetProxy = C3E0ABED1DD3D311000983AB /* PBXContainerItemProxy */;
+		};
+		C3E0ABF91DD3D311000983AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3E0ABD71DD3D311000983AB /* SountPlayer */;
+			targetProxy = C3E0ABF81DD3D311000983AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C36BBCB51DD4399200D39F6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C36BBCB61DD4399200D39F6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3E0ABE41DD3D311000983AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3E0ABE51DD3D311000983AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3E0ABFE1DD3D311000983AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3E0ABFF1DD3D311000983AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3E0AC011DD3D311000983AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y8N4W2BH87;
+				INFOPLIST_FILE = SountPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ycg.SountPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C3E0AC021DD3D311000983AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y8N4W2BH87;
+				INFOPLIST_FILE = SountPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ycg.SountPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C3E0AC041DD3D311000983AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y8N4W2BH87;
+				INFOPLIST_FILE = SountPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ycg.SountPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SountPlayer.app/SountPlayer";
+			};
+			name = Debug;
+		};
+		C3E0AC051DD3D311000983AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y8N4W2BH87;
+				INFOPLIST_FILE = SountPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ycg.SountPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SountPlayer.app/SountPlayer";
+			};
+			name = Release;
+		};
+		C3E0AC071DD3D311000983AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y8N4W2BH87;
+				INFOPLIST_FILE = SountPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ycg.SountPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SountPlayer;
+			};
+			name = Debug;
+		};
+		C3E0AC081DD3D311000983AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y8N4W2BH87;
+				INFOPLIST_FILE = SountPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ycg.SountPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SountPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3E0ABD31DD3D311000983AB /* Build configuration list for PBXProject "SountPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E0ABFE1DD3D311000983AB /* Debug */,
+				C3E0ABFF1DD3D311000983AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E0AC001DD3D311000983AB /* Build configuration list for PBXNativeTarget "SountPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E0AC011DD3D311000983AB /* Debug */,
+				C3E0AC021DD3D311000983AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E0AC031DD3D311000983AB /* Build configuration list for PBXNativeTarget "SountPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E0AC041DD3D311000983AB /* Debug */,
+				C3E0AC051DD3D311000983AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3E0AC061DD3D311000983AB /* Build configuration list for PBXNativeTarget "SountPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E0AC071DD3D311000983AB /* Debug */,
+				C3E0AC081DD3D311000983AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3E0ABD01DD3D311000983AB /* Project object */;
+}
