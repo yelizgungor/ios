@@ -40,7 +40,6 @@ extension PlayRecordViewController: AVAudioPlayerDelegate {
     
     func playSound(rate: Float? = nil, pitch: Float? = nil) {
         
-        
         // initialize audio engine components
         audioEngine = AVAudioEngine()
         
@@ -49,7 +48,9 @@ extension PlayRecordViewController: AVAudioPlayerDelegate {
         audioEngine.attach(audioPlayerNode)
         
         // node for adjusting rate/pitch
-        let changeRatePitchNode = AVAudioUnitTimePitch()
+        changeRatePitchNode = AVAudioUnitTimePitch()
+
+       
         if let pitch = pitch {
             changeRatePitchNode.pitch = pitch
         }
@@ -57,17 +58,6 @@ extension PlayRecordViewController: AVAudioPlayerDelegate {
             changeRatePitchNode.rate = rate
         }
         audioEngine.attach(changeRatePitchNode)
-        
-//        // node for echo
-//        let echoNode = AVAudioUnitDistortion()
-//        echoNode.loadFactoryPreset(.multiEcho1)
-//        audioEngine.attach(echoNode)
-//        
-//        // node for reverb
-//        let reverbNode = AVAudioUnitReverb()
-//        reverbNode.loadFactoryPreset(.cathedral)
-//        reverbNode.wetDryMix = 50
-//        audioEngine.attach(reverbNode)
         
         connectAudioNodes(audioPlayerNode, changeRatePitchNode, audioEngine.outputNode)
         

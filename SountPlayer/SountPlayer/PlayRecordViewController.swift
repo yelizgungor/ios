@@ -16,6 +16,8 @@ class PlayRecordViewController: UIViewController {
     var audioEngine:AVAudioEngine!
     var audioPlayerNode: AVAudioPlayerNode!
     var stopTimer: Timer!
+    var changeRatePitchNode: AVAudioUnitTimePitch!
+
     
     @IBOutlet weak var rateSlider: UISlider!
     @IBOutlet weak var stopButton: UIButton!
@@ -26,8 +28,10 @@ class PlayRecordViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         setupAudio()
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -58,7 +62,7 @@ class PlayRecordViewController: UIViewController {
     }
     
     @IBAction func rateValueChanged(_ sender: Any) {
-       
+        changeRatePitchNode.rate = rateSlider.value/10;
     }
 
 
